@@ -16,3 +16,4 @@
 // });
 
 Route::get('/','UserController@index');
+Route::get('filter-user/{1}','UserController@show');
